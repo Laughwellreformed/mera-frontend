@@ -6,8 +6,8 @@ import autoprefixer from 'autoprefixer'
 export default defineConfig(() => {
   return {
     plugins: [vue()],
-    base: './',
-    // base: '/mera-frontend/',
+    // base: './',
+    base: './mera-frontend/',
     css: {
       postcss: {
         plugins: [
