@@ -1,0 +1,56 @@
+.brand-primary-color {
+  color: #16AF47 !important;
+}
+
+.brand-primary-bg {
+  background-color: #16AF47 !important;
+}
+
+.brand-secondary-color {
+  color: #FFC107 !important;
+}
+
+.brand-secondary-bg {
+  background-color: #FFC107 !important;
+}
+
+.brand-blue-color {
+  color: #78bbef !important;
+}
+
+/*Buttons*/
+.brand-btn-primary {
+  color: #fff !important;
+  background-color: #16AF47 !important;
+  border-color: #16AF47 !important;
+}
+
+.brand-btn-primary:hover {
+  color: #fff !important;
+  background-color: #128A3B !important;
+  border-color: #128A3B !important;
+}
+
+.brand-btn-secondary {
+  color: #fff !important;
+  background-color: #DD8C27 !important;
+  border-color: #FFC107 !important;
+}
+
+.brand-btn-secondary:hover {
+  color: #fff !important;
+  background-color: #DD8C27 !important;
+  border-color: #FFA000 !important;
+}
+
+.brand-btn-blue {
+  color: #fff !important;
+  background-color: #78bbef !important;
+  border-color: #78bbef !important;
+}
+
+.brand-btn-blue:hover {
+  color: #fff !important;
+  background-color: #5f9eeb !important;
+  border-color: #5f9eeb !important;
+}

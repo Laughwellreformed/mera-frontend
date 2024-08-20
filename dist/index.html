@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+    <meta name="description" content="CoreUI Vue.js Admin Template">
+    <meta name="author" content="creativeLabs Łukasz Holeczek">
+    <title>Mera Geo Mapping</title>
+    <!-- favicons for all devices -->
+      <link rel="apple-touch-icon" sizes="180x180" href="/mera-frontend/favicon/android-chrome-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/mera-frontend/favicon/android-chrome-512x512.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/mera-frontend/favicon/favicon-16x16.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/mera-frontend/favicon/favicon-32x32.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <link href="/mera-frontend/theme/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/mera-frontend/bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/mera-frontend/boxicons/css/boxicons.min.css">
+  <link rel="stylesheet" href="/mera-frontend/theme/style.css">
+    <link rel="stylesheet" href="/mera-frontend/datatables/datatables.min.css">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+      const userMode = localStorage.getItem('coreui-free-vue-admin-template-theme');
+	    const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.dataset.coreuiTheme = 'dark';
+			}
+    </script>
+    <script type="module" crossorigin src="/mera-frontend/assets/index-D0mxrVmJ.js"></script>
+    <link rel="modulepreload" crossorigin href="/mera-frontend/assets/group-user-BfSpxGtK.js">
+    <link rel="stylesheet" crossorigin href="/mera-frontend/assets/index-DUEcYHYD.css">
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but this app doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <script src="/mera-frontend/jquery/jquery.min.js"></script>
+    <script src="/mera-frontend/jquery-ui/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="/mera-frontend/theme/js/bootstrap.min.js"></script>
+    <script src="/mera-frontend/datatables/jquery.dataTables.min.js"></script>
+    <script>
+        // on load
+        $(document).ready(function() {
+            $('#sTable').DataTable();
+        });
+    </script>
+  </body>
+</html>
