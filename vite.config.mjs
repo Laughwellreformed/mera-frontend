@@ -19,6 +19,11 @@ export default defineConfig(() => {
       alias: [
         // webpack path resolve to vitejs
         {
+          // resolve vue
+            find: /^vue$/,
+            replacement: 'vue/dist/vue.esm-bundler.js',
+        },
+        {
           find: /^~(.*)$/,
           replacement: '$1',
         },
